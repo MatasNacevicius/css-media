@@ -1,0 +1,119 @@
+.header{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: lightskyblue;
+}
+.content{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: beige;
+}
+.signup{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+.feature1{
+    text-align: center;
+    float: left;
+    width: 35%;
+    height: 100px;
+    background-color: orange;
+}
+.feature2{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    background-color: darkorchid;
+}
+.feature3{
+    text-align: center;
+    float: right;
+    width: 35%;
+    height: 100px;
+    background-color: red;
+}
+@media (max-width: 500px){
+    .header{
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: lightskyblue;
+    }
+    .content{
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        background-color: beige;
+    }
+    .signup{
+        text-align: center;
+        width: 50%;
+        float: left;
+        height: 100px;
+        background-color: aquamarine;
+    }
+    .feature1{
+        text-align: center;
+        float: right;
+        width: 50%;
+        height: 100px;
+        background-color: orange;
+    }
+    .feature2{
+        text-align: center;
+        float: left;
+        width: 50%;
+        height: 100px;
+        background-color: darkorchid;
+    }
+    .feature3{
+        text-align: center;
+        float: right;
+        width: 50%;
+        height: 100px;
+        background-color: red;
+    }
+}
+@media (max-width: 300px){
+    .header{
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: lightskyblue;
+    }
+    .content{
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        background-color: beige;
+    }
+    .signup{
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: aquamarine;
+    }
+    .feature1{
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: orange;
+    }
+    .feature2{
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: darkorchid;
+    }
+    .feature3{
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: red;
+    }
+}
